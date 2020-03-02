@@ -1,0 +1,248 @@
+html{
+    position: relative;
+}
+
+
+
+/* navbar */
+nav{
+    background: black;
+    justify-content: space-between;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li:hover{
+    border-radius: 20px;
+    background: #FF8C00;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+nav .icon{
+    font-size: 15px;
+    padding: 0;
+    margin-left: 50px;
+}
+
+nav .icon i{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+
+nav .icon i:hover{
+    transform: scale(1.5);
+}
+/* slider one */
+.site-slider{
+    position: relative;
+}
+
+.position-top{
+    position: absolute;
+    top: 50%;
+}
+
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: whitesmoke;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity: 50%;
+}
+
+.right-0{
+    right: 0;
+}
+
+/* slider dua */
+.best{
+    height: 30rem;
+}
+
+.best .product{
+    height: 25rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.best .product:hover{
+   transform: scale(1.02);
+}
+
+.best .product img{
+    width: 80%;
+    margin: auto;
+}
+
+.site-slider-dua{
+    position: relative;
+}
+
+.position-top{
+    position: absolute;
+    top: 50%;
+}
+
+.site-slider-dua .slide-btn .prev,
+.site-slider-dua .slide-btn .next{
+    background-color: whitesmoke;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity ease-in-out;
+}
+
+.site-slider-dua:hover .slide-btn .prev,
+.site-slider-dua:hover .slide-btn .next{
+    opacity: 50%;
+}
+
+.best .slider-dua .btn{
+    background-color: #FF8C00;
+}
+
+/* brand */
+.job{
+    color: white;
+    background: black;
+}
+
+.job .col-sm-7{
+    padding: 15vmin 1vmin;
+}
+
+.job .col-sm-7 h1{
+    letter-spacing: 4px;
+}
+
+.job span{
+    margin: 10px;
+}
+
+.job .col-sm-7 .buy{
+    font-weight: bold;
+    color: black;
+    padding: 10px 80px 10px 80px;
+    background: rgb(214, 212, 209);
+}
+
+.job .col-sm-7 .join{
+    font-weight: bold;
+    color: black;
+    padding: 10px 80px 10px 80px;
+    background: rgb(214, 212, 209);
+}
+
+.job .col-sm-5{
+    overflow: hidden;
+    height: 400px;
+}
+
+.job .col-sm-5 img{
+    height: 400px;
+}
+
+/* Card */
+
+.card .container{
+    padding: 15vmin 1vmin;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.card i{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* footer */
+footer {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vmin;
+}
+
+/* get help */
+
+
+footer .row .col-sm-3 h4{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer .row .col-sm-3 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    display: inline;
+}
+
+
+/* find */
+
+
+footer .row .follow h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+footer .row .follow i{
+    color: rgba(179, 175, 175, 0.541);
+    margin: 10px;
+}
+
+footer .row .follow i:hover{
+    color: black;
+}
+
+/* email */
+
+footer .row .col-sm-4 .news h2{
+    font-weight: bold;
+}
+
+footer .row .col-sm-4 .news p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+/* copy */
+ footer .container .col-sm-12 p a{
+    text-decoration: none;
+ }
+
+
+ /* sticky */
