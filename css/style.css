@@ -1,0 +1,350 @@
+
+
+html{
+    position: relative;    
+}
+
+
+
+/* navbar */
+nav{
+    height: 70px;
+    background: black;
+    justify-content: space-between;
+    font-size: 19px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li:hover{
+    color: white;
+    scale: 1.09;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+nav .icon{
+    font-size: 15px;
+    padding: 0;
+    margin-left: 50px;
+}
+
+nav .icon i{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+
+nav .icon i:hover{
+    transform: scale(1.5);
+}
+/* slider one */
+.site-slider{
+    position: relative;
+}
+
+.position-top{
+    position: absolute;
+    top: 50%;
+}
+
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: whitesmoke;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity: 50%;
+}
+
+.right-0{
+    right: 0;
+}
+
+/* slider dua */
+.best{
+    height: 30rem;
+}
+
+.best .product{
+    height: 25rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.best .product:hover{
+   transform: scale(1.02);
+}
+
+.best .product img{
+    width: 80%;
+    margin: auto;
+}
+
+.site-slider-dua{
+    position: relative;
+}
+
+.position-top{
+    position: absolute;
+    top: 50%;
+}
+
+.site-slider-dua .slide-btn .prev,
+.site-slider-dua .slide-btn .next{
+    background-color: whitesmoke;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity ease-in-out;
+}
+
+.site-slider-dua:hover .slide-btn .prev,
+.site-slider-dua:hover .slide-btn .next{
+    opacity: 50%;
+}
+
+.best .slider-dua .btn{
+    background-color: #FF8C00;
+}
+
+/* brand */
+.job{
+    color: white;
+    background: black;
+}
+
+.job .col-sm-7{
+    padding: 15vmin 1vmin;
+}
+
+.job .col-sm-7 h1{
+    letter-spacing: 4px;
+}
+
+.job span{
+    margin: 10px;
+}
+
+.job .col-sm-7 .buy{
+    font-weight: bold;
+    color: black;
+    padding: 10px 80px 10px 80px;
+    background: rgb(214, 212, 209);
+}
+
+.job .col-sm-7 .join{
+    font-weight: bold;
+    color: black;
+    padding: 10px 80px 10px 80px;
+    background: rgb(214, 212, 209);
+}
+
+.job .col-sm-5{
+    overflow: hidden;
+    height: 400px;
+}
+
+.job .col-sm-5 img{
+    height: 400px;
+}
+
+/* Card */
+.cards .container{
+    padding: 15vmin 1vmin;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.cards .card{
+    background: rgba(240, 240, 240, 0.432);
+}
+
+.card i{
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* register */
+
+
+
+.register{
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+}
+
+.register .col-sm-6 .imag img{
+    padding-top: 10px;
+    width: 700px;
+}
+
+.register .col-sm-6 .form-row .col-sm-12 button{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: white;
+    background: #FF8C00;
+    border-radius: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.register .col-sm-6 .isian{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.register .col-sm-6 .isian .head-row h1{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.register .baton{
+    margin-top: 20px;
+}
+
+.register .baton button{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: white;
+    background: #FF8C00;
+    border-radius: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.register .baton-satu{
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.register .baton-satu .facebook{
+    color: white;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: blue;
+}
+
+.register .baton-satu .google{
+    color: white;
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: red;
+}
+
+
+/* /register  */
+/* footer */
+footer {
+    font-family: 'Oxanium', cursive;
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vmin;
+}
+
+/* get help */
+
+footer .row .col-sm-3 h4{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer .row .col-sm-3 a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline;
+}
+
+
+/* find */
+
+
+footer .row .follow h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+footer .row .follow i{
+    color: rgba(179, 175, 175, 0.541);
+    margin: 10px;
+}
+
+footer .row .follow .whatsapp i:hover{
+    color: #25D366;
+}
+
+footer .row .follow .line i:hover{
+    color: rgb(41, 161, 67);
+}
+
+footer .row .follow .twitter i:hover{
+    color: rgb(37, 133, 211);
+}
+
+footer .row .follow .facebook i:hover{
+    color: rgb(37, 78, 211);
+}
+/* email */
+
+footer .row .col-sm-4 .news h2{
+    font-weight: bold;
+}
+
+footer .row .col-sm-4 .news p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+/* copy */
+ footer .container .col-sm-12 p a{
+    text-decoration: none;
+ }
+
+.container{
+    scroll-behavior: smooth;
+}
